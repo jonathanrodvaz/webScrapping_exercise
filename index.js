@@ -92,7 +92,7 @@ const scrapping = async (keyWord) =>{
 inquirer.prompt([
     {
         name: "busqueda",
-        message: "Que quieres buscar?"
+        message: "Bienvenido a WebScrapper 3000. ¿Que página quieres consultar?"
     }
 ]).then((answers)=> {
    let keyWord = answers.busqueda;
